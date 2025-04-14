@@ -1,0 +1,198 @@
+body{
+    min-height: 100vh;
+    background-color: #655838;
+    font-family: 'Nunito', sans-serif;
+    background-image: url(/assets/img/bg-image-l.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    background-color: #655838;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: #ffd700;
+    color: #343a40;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.main-content {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+}
+.nav-link {
+    color: #ffffff;
+}
+.nav-link:focus, .nav-link:hover {
+    color:#ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #a04109;
+    position: relative;
+}
+
+.nav-pills .nav-link.active:after{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #a04109 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+.tabs-login-and-register{
+    margin-bottom: 15px;
+}
+.card{
+    background: #a04109;
+    color: #fff;
+    padding: 25px;
+    border: none;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.reg-log-btn{
+    width: 100%;
+    background-color: #302728 !important;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+input.form-control{
+    background: #d5d3d4;
+    border-radius: 3px;
+    padding: 8px;
+}
+p.me-top-desc{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #907001;
+    padding-bottom: 15px;
+    width: 100%;
+}
+p.me-top-desc strong{
+    display: inline-block;
+    width: 100%;
+    font-size: 23px;   
+}
+.login-top-container{
+    margin-top: 11vh;
+}
+.register-top-container{
+    margin-top: 4vh;
+}
+.logout-link{
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    font-weight: 500;
+}
+.me-dark-button{
+    background-color: #302728 !important;
+    border: none;
+    outline: none;
+    color:#fff;
+}
+.card-pad-zero{
+    padding: 0;
+}
+.message-content{
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.send-message-list .card{
+    padding: 0;
+    margin-bottom: 20px;   
+}
+.send-message-list .card.received-message {
+    width: 80%;
+    float: left;
+    background: #f3f3f3;
+    color: #000;
+    border-radius: 12px;
+    border-left: 4px solid #ccc;  
+    font-size: 15px;  
+}  
+.send-message-list .card.sent-message{
+    width: 80%;
+    float: right;
+    background: #ffe7d4;
+    color: #000;
+    text-align: left;
+    border-radius: 12px;
+    border-left: 4px solid #ffb17a; 
+    font-size: 15px;   
+}
+.send-message-list{
+    display: inline-block;
+    width: 100%;
+    max-height: 50vh;
+    overflow: auto;
+    scrollbar-width: thin;             
+    scrollbar-color: #d3d3d3 transparent;
+    padding: 15px;
+}
+textarea.form-control{
+    opacity:.7;
+}
+.send-message-list::-webkit-scrollbar {
+    width: 6px;
+}
+.send-message-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+.send-message-list::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3;
+    border-radius: 3px;
+    border: none;
+}
+.send-message-list::-webkit-scrollbar-thumb:hover {
+    background-color: #bfbfbf;
+}
+.icon-color{
+    color: #f5d7b6;
+    margin-right: 5px;
+}
+.card-header i{  
+    margin-right: 5px;   
+}
