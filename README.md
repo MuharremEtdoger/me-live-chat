@@ -1,8 +1,8 @@
 <p align="center"><a href="https://laravel.com" target="_blank">Real-Time Messaging with Laravel & Vue</a></p>
 <p align="center">A real-time messaging system built with Laravel and Vue.js, featuring Auth, Eloquent, Broadcasting, and WebSocket technologies.</p>
-<p align="center">- Laravel
-- Vue.js
-- Bootstrap
+<p align="center">- Laravel<br>
+- Vue.js<br>
+- Bootstrap<br>
 
 Laravel 
 - Models
